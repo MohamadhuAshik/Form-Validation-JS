@@ -8,7 +8,7 @@ function validate() {
   var cPass = document.getElementById("cPass");
 
   if (fName.value == "" || lName.value == "" || email.value == "" || nPass.value == "" || cPass.value == "" || mobile.value == " ") {
-    alert("No Blank Values Allowded");
+    alert("Enter inputs");
     return false;
   } else {
     true;
